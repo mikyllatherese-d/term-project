@@ -1,0 +1,8 @@
+.intro {
+    font-family: fantasy;
+}
+
+.intro h5 {
+    text-align: right;
+    text-decoration-line: line-through;
+}
