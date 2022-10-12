@@ -4,5 +4,32 @@
 
 .intro h5 {
     text-align: right;
-    text-decoration-line: line-through;
+}
+
+.home {
+    background-image: url("../images/atf-image.jpg");
+    font-family: fantasy;
+    line-height: 70%;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: larger;
+}
+
+.home button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.home p {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+#taste {
+    color: rgb(29, 158, 29);
 }
