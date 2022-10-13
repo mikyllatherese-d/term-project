@@ -1,35 +1,47 @@
 .intro {
     font-family: fantasy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
 }
 
-.intro h5 {
-    text-align: right;
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 50px;
 }
 
-.home {
+.menu li {
+    padding: 0 5px;
+}
+
+.hero {
     background-image: url("../images/atf-image.jpg");
     font-family: fantasy;
     line-height: 70%;
-    background-size: cover;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
     font-size: larger;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+    padding-left: 50px;
 }
 
-.home button {
+.hero button {
     background-color: black;
     color: white;
     padding: 10px 20px;
 }
 
-.home p {
+.hero p {
     font-family: sans-serif;
     font-style: italic;
     font-size: small;
 }
 
 #taste {
-    color: rgb(29, 158, 29);
+    color: rgb(31, 128, 31);
 }
