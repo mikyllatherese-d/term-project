@@ -14,6 +14,7 @@
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    color:black;
 }
 
 .menu li {
@@ -238,12 +239,14 @@
 .footer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
     line-height: 10px;
     background-image: url("../images/footer-img.jpg");
     background-repeat: no-repeat;
     color: white;
+    padding-right: 50px;
+    padding-left: 40px;
 }
 
 .latest-post-dates {
@@ -269,4 +272,25 @@
 
 .search {
     color: black
+}
+
+.sub-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.apps {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    color: white;
+}
+
+.apps li {
+    padding: 0 5px;
 }
