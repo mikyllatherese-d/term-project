@@ -14,11 +14,11 @@
         <h2>Coffee Bean</h2>
         <nav>
             <ul class="menu">
-                <li>Home</li>
-                <li>Menu</li>
-                <li>Reservation</li>
-                <li>Blog</li>
-                <li>Contact us</li>
+                <li a href="">Home</li>
+                <li a href="">Menu</li>
+                <li a href="">Reservation</li>
+                <li a href="">Blog</li>
+                <li a href="">Contact us</li>
             </ul>
         </nav>
     </header>
@@ -185,6 +185,79 @@
         </div>
     </div>
 
+    <div class="items">
+        <p class="coffee-house">RESERVATION FORM</p>
+        <hr class="line">
+    </div>
 
+    <form class="container">
+            <div class="forms">
+                <div class="block-form block-form--left">
+                    <div class="block-form-content">
+                        <fieldset>
+                        <label for="name">Full Name</label>
+                        <br>
+                        <input type="text" placeholder="Last Name, First Name" name="name" size="80">
+                        <br>
+                        <br>
+                        <label for="email">Email Address</label>
+                        <br>
+                        <input type="text" placeholder="mail@mail.com" name="email" size="80">
+                        <br>
+                        <br>
+                        <label for="phone">Phone Number</label>
+                        <br>
+                        <input type="text" placeholder="(Area Code)1234567890" name="phone" size="80">
+                        <br>
+                        <br>
+                        <label for="details" class="details">Reservation Details</label>
+                        <br>
+                        <select name="details" id="details">
+                            <option value="1 person table">1 person table</option>
+                            <option value="2 person table">2 person table</option>
+                            <option value="3 person table">3 person table</option>
+                            <option value="More">More</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="date">Reservation Date</label>
+                        <br>
+                        <input type="date" name="date" id="date">
+                        <br>
+                        <input type="radio" name="date" id="date">Morning
+                        <input type="radio" name="date" id="date">Afternoon
+                        </fieldset>
+                    </div>
+                </div>
+
+                    <div class="block-form block-form--right">
+                        <div class="block-form-content">
+                        <fieldset>
+                            <label for="requests">Additional Requests</label>
+                            <br>
+                            <textarea name="requests" id="requests" cols="60" rows="10"></textarea>
+                            <center id="payment">Payment</center>
+                            <center>Payment Accepted Cards</center>
+                            <center>cards</center>
+                            <label for="cc-name">Credit Card Name</label>
+                            <br>
+                            <input type="text" placeholder="John Doe" name="cc-name" size="80">
+                            <br>
+                            <br>
+                            <label for="cc-number">Credit Card Number</label>
+                            <br>
+                            <input type="text" placeholder="1234567890" name="cc-number" size="80">
+                            <br>
+                            <input type="checkbox" name="i-agree" id="i-agree">I agree Lorem ipsum dolor sit amet.
+                            <br>
+                            <br>
+                            <center>
+                            <a class="button-send" href="">SEND</a>
+                            </center>
+                            <br>
+                     </fieldset>
+                </div>
+            </div>
+    </form>
 </body>
 </html>

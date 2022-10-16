@@ -191,3 +191,23 @@
 .block-item--right-five {
     background-image: url("../images/merchandise6.jpg");
 }
+
+.button-send {
+    background-color: rgb(31, 128, 31);
+    color: white;
+    padding: 10px 280px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.forms {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 70px;
+    line-height: 70%;
+    gap: 5px;
+    line-height: 15px;
+}
