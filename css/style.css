@@ -234,3 +234,39 @@
     font-weight: bold;
     font-size: large;
 }
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 10px;
+    background-image: url("../images/footer-img.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.latest-post-dates {
+    color: rgb(171, 76, 76);
+}
+
+.footer h3 {
+    font-size: larger;
+}
+
+.search {
+    font-family: sans-serif;
+    background-color:  rgb(171, 76, 76);
+    color: white;
+    padding: 10px 20px;
+    font-size: small;
+    text-decoration: none;
+}
+
+#search-box {
+    padding: 8px 18px;
+}
+
+.search {
+    color: black
+}
