@@ -175,3 +175,19 @@
     color: white;
     font-weight: bold;
 }
+
+.block-item--left-two {
+    background-image: url("../images/merchandise3.jpg");
+}
+
+.block-item--right-three {
+    background-image: url("../images/merchandise4.jpg");
+}
+
+.block-item--left-four {
+    background-image: url("../images/merchandise5.jpg");
+}
+
+.block-item--right-five {
+    background-image: url("../images/merchandise6.jpg");
+}
