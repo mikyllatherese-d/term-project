@@ -17,6 +17,10 @@
     color:black;
 }
 
+.menu a {
+    color: black;
+}
+
 .menu li {
     padding: 0 5px;
 }
@@ -279,18 +283,22 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    color: white;
     padding-left: 130px;
     padding-right: 130px;
+    color: white;
 }
 
 .apps {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    color: white;
+    
 }
 
 .apps li {
     padding: 0 5px;
+}
+
+.sub-footer a {
+    color: white;
 }
