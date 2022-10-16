@@ -49,6 +49,7 @@
     font-family: sans-serif;
     font-style: italic;
     font-size: small;
+    padding-bottom: 10px;
 }
 
 #taste {
@@ -90,6 +91,7 @@
 #readmore {
     font-family: sans-serif;
     font-size: small;
+    color: white;
 }
 
 .items {
@@ -107,10 +109,69 @@
 .coffee-house {
     font-family: serif;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .line {
     max-width: 150px;
     color: rgb(171, 76, 76);
     border: solid;
+}
+
+.products img {
+    max-width: 400px;
+    height: auto;
+}
+
+.products {
+    padding: 82px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    line-height: 10px;
+}
+
+.paper-pouch {
+    font-family: serif;
+    font-weight: bold;
+}
+
+.asterisk {
+    color: rgb(171, 76, 76);
+}
+
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    text-align: center;
+    line-height: 10px;
+    background-size: cover;
+    padding: 100px 100px;
+}
+
+.banner-button {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.what-happens-here-one {
+    font-family: sans-serif;
+    color: rgb(171, 76, 76);
+    font-style: italic;
+    font-size: large;
+}
+
+.special-gift {
+    font-family: serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
 }
